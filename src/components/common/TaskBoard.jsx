@@ -142,7 +142,7 @@ const TaskBoard = (props) => {
           justifyContent: "space-between",
         }}
       >
-        <Button onClick={createSection}>Add section</Button>
+        <Button onClick={createSection}>Add progress section</Button>
         <Typography variant="body2" fontWeight="700">
           {data.length} Sections
         </Typography>
