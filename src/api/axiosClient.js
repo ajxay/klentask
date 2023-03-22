@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseUrl = "https://klent-task.onrender.com/api/v1/";
+const baseUrl = "https://klentask-api.onrender.com/api/v1/";
 const getToken = () => localStorage.getItem("token");
 
 const axiosClient = axios.create({
